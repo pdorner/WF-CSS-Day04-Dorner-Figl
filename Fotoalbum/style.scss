@@ -1,20 +1,59 @@
 
-
-
+@charset "UTF-8";
+$font-stack: Happy Monkey, sans-serif;
     body {
         background-color: lightgreen;
+        background-image: url("https://static.geo.de/bilder/84/ac/64272/galleryimage/05-balko-hollaendischer-schaeferhund.jpg");
+        width:100%;
+        
     }
 
 
 @media screen and (min-width: 481px) and (max-width: 1200px) {
     body {
         background-color: deepskyblue;
+        background-image: url("https://static.geo.de/bilder/84/ac/64272/galleryimage/05-balko-hollaendischer-schaeferhund.jpg");
+        width:100%;
+        
     }
 }
 @media screen and (min-width:1201px) {
     body {
-        background-color: darksalmon;
+        background-color: black;
+        background-image: url("https://static.geo.de/bilder/84/ac/64272/galleryimage/05-balko-hollaendischer-schaeferhund.jpg");
+        width:100%;
+        
+
     }
 }
+@mixin Schrift-style($size){
+	font-size: $size;
+	color: red;
+	background-color: white;
+	font:$font-stack;
+	
+
+}
+p {
+	@include Schrift-style(20px);
+	
+	
+	
+}
+
+h1 {
+	@include Schrift-style(400%);
+
+
+}
+h2 {
+	@include Schrift-style(25px);
+}
+img{
+	height:40%;
+	width:40%;
+
+}
+
 
 
