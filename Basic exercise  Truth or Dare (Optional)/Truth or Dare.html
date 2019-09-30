@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Truth or Dare</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+	<header>
+		<h1 id = "title">The great Truth or Dare Game</h1>
+	</header>
+
+	<main>
+
+		<br><br>
+
+		<h2>Choose One</h2>
+		<div id = "game">
+			<button id ="truth" type="Button" name="truth" onclick="setGame('truth')">Truth</button>
+			<button id ="dare" type="Button" name="dare" onclick="setGame('dare')">Dare</button>
+		</div>
+
+		<h2 id = "option"></h2>
+	</main>
+
+			<footer>
+		<p>@ Alex & Phil GmbH</p>
+	</footer>
+
+
+
+</body>
+<script>
+	function setGame(type){
+		let chooseRandomNumber = Math.floor(Math.random() * 3) +1;
+		var topic = "";
+		if (chooseRandomNumber == 1){
+			topic = "aboute your Childhood";
+		} else if (chooseRandomNumber == 2){
+			topic = "aboute your Lovelife"
+		} else {
+			topic = "aboute your Family"
+		}
+		switch(type){
+			case 'truth':
+
+			option.innerHTML = "Tell a secret " + topic + " &#128124;";
+			break;
+			case 'dare':
+			option.innerHTML = "Go Home and Sleep! 😈";
+			break;
+		}
+
+	}
+</script>
+</html>

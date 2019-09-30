@@ -1,0 +1,53 @@
+html {
+	height: 100%;
+	width: 100%;
+	background-image:  url(https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/94/14/63/941463f1-7229-bf44-cd99-a5da039c6943/AppIcon-0-1x_U007emarketing-0-0-85-220-0-10.png/246x0w.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+body{
+font-family: 'Lobster', cursive;
+text-shadow: 2px 2px lightgray;
+}
+header{
+	text-align: center;
+	font-size: 2em	;
+}
+footer{
+	position: fixed;
+  	bottom: 0;
+}
+button{
+	width: 150px;
+	height: 150px;
+background-image: -webkit-linear-gradient(left, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+background-image: -o-linear-gradient(left, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+
+}
+
+#truth:hover {
+  transform: rotate(350deg);
+  width: 600px;
+}
+#dare:hover {
+  transform: rotate(10deg);
+  width: 600px;
+}
+
+#game{
+	display:flex;
+  justify-content:space-between;
+
+}
+h2{
+	font-size: 2em;
+	text-align: center;
+}
+#truth{
+	height: 200px;
+}
+#dare{
+	height: 200px;
+}
