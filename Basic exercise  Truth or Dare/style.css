@@ -1,3 +1,8 @@
-
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/94/14/63/941463f1-7229-bf44-cd99-a5da039c6943/AppIcon-0-1x_U007emarketing-0-0-85-220-0-10.png/246x0w.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
 
 /*# sourceMappingURL=style.css.map */
