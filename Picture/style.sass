@@ -1,2 +1,29 @@
 p
-	color: red
+	color: blue
+
+@mixin border-radius($radius)
+	-webkit-border-radius: $radius
+	-moz-border-radius: $radius
+	-ms-border-radius: $radius
+	border-radius: $radius
+	 
+div.box 
+	@include border-radius(40px)
+	background-color: #ccc
+	padding: 10px
+
+p.subtitle
+	@include border-radius(20px)
+	background-color: #FFEE00
+	padding: 10px
+ 
+@mixin color-red($color)
+	color: $color
+	font-size: 60px
+	background-color: green
+
+p.c
+	@include color-red(red)
+
+p.d
+	@include color-red(blue)

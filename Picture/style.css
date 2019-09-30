@@ -1,4 +1,30 @@
 p {
-  color: red; }
+  color: blue; }
+
+div.box {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  border-radius: 40px;
+  background-color: #ccc;
+  padding: 10px; }
+
+p.subtitle {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #FFEE00;
+  padding: 10px; }
+
+p.c {
+  color: red;
+  font-size: 60px;
+  background-color: green; }
+
+p.d {
+  color: blue;
+  font-size: 60px;
+  background-color: green; }
 
 /*# sourceMappingURL=style.css.map */
