@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Picture</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Picture-Album Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<p class="c"> haha</p>
-			<p class="d"> haha</p>
+    <center>
+        <header>
+            <h1>My Cats</h1>
+            <h2>See the best pitures right here</h2>
+        </header>
+        <div>
+            <button type="button" onclick="back()">Back</button>
+            <img src="./img/baby.jpg" name="p1" onmouseover="MouseOver(this);" onmouseout="MouseOut(this);">
+            <button type="button" onclick="next()">Next</button>
+        </div>
+    </center>
+    <footer>
+        <p> @phil</p>
+    </footer>
 </body>
+<script>
+var p1 = new Image();
+var p2 = new Image();
+var p3 = new Image();
+var p4 = new Image();
+var p5 = new Image();
+
+p1.src = "./img/baby.jpg";
+p2.src = "./img/pirat.jpg";
+p3.src = "./img/hunter.jpg";
+p4.src = "./img/cool.jpg";
+p5.src = "./img/mouse.jpg";
+var imgArray = new Array(p1, p2, p3, p4, p5);
+var counter = 0;
+
+
+function next() {
+    if (counter == 4) {
+        counter = 0;
+        document.p1.src = imgArray[counter].src;
+    } else {
+        counter++;
+        document.p1.src = imgArray[counter].src;
+    }
+}
+
+function back() {
+    if (counter == 0) {
+        counter = 4;
+        document.p1.src = imgArray[counter].src;
+    } else {
+        counter--;
+        document.p1.src = imgArray[counter].src;
+        return counter;
+    }
+}
+
+function MouseOver(x) {
+    x.style.height = "400px";
+    x.style.width = "400px";
+}
+
+function MouseOut(x) {
+
+    x.style.height = "300px";
+    x.style.width = "300px";
+}
+</script>
+
 </html>
