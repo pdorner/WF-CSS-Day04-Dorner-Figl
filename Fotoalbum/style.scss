@@ -1,59 +1,108 @@
-
 @charset "UTF-8";
-$font-stack: Happy Monkey, sans-serif;
+$font-stack: Happy Monkey,
+sans-serif;
+
+@mixin Schrift-style($size) {
+    color: red;
+    background-color: rgba(255,255,255,0.2);
+
+    font: $size $font-stack;
+
+
+}
+
+@media screen and (max-width: 480px) {
     body {
         background-color: lightgreen;
-        background-image: url("https://static.geo.de/bilder/84/ac/64272/galleryimage/05-balko-hollaendischer-schaeferhund.jpg");
-        width:100%;
-        
+        background-image: url("https://sitmeanssit.com/dog-training-mu/metro-detroit-dog-training/files/2016/03/16458523_ml.jpg");
+        width: 100%;
+        background-size: stretch;
+
+        p {
+            @include Schrift-style(30%);
+
+
+
+        }
+
+        h1 {
+            @include Schrift-style(100%);
+            width: 50%;
+
+
+        }
+
+        h2 {
+            @include Schrift-style(50%);
+
+        }
+
     }
+}
 
 
 @media screen and (min-width: 481px) and (max-width: 1200px) {
     body {
         background-color: deepskyblue;
-        background-image: url("https://static.geo.de/bilder/84/ac/64272/galleryimage/05-balko-hollaendischer-schaeferhund.jpg");
-        width:100%;
-        
+        background-image: url("https://sitmeanssit.com/dog-training-mu/metro-detroit-dog-training/files/2016/03/16458523_ml.jpg");
+        width: 100%;
+        background-size: stretch;
+
+        p {
+            @include Schrift-style(100%);
+
+
+
+        }
+
+        h1 {
+            @include Schrift-style(500%);
+            width: 50%;
+
+
+        }
+
+        h2 {
+            @include Schrift-style(250%);
+
+        }
+
     }
 }
+
 @media screen and (min-width:1201px) {
     body {
         background-color: black;
-        background-image: url("https://static.geo.de/bilder/84/ac/64272/galleryimage/05-balko-hollaendischer-schaeferhund.jpg");
-        width:100%;
-        
+        background-image: url("https://sitmeanssit.com/dog-training-mu/metro-detroit-dog-training/files/2016/03/16458523_ml.jpg");
+        width: 100%;
+        background-size: stretch;
+
+        p {
+            @include Schrift-style(200%);
+
+
+
+        }
+
+        h1 {
+            @include Schrift-style(800%);
+            width: 50%;
+
+
+        }
+
+        h2 {
+            @include Schrift-style(400%);
+
+        }
+
 
     }
 }
-@mixin Schrift-style($size){
-	font-size: $size;
-	color: red;
-	background-color: white;
-	font:$font-stack;
-	
+
+
+img {
+    height: 40%;
+    width: 40%;
 
 }
-p {
-	@include Schrift-style(20px);
-	
-	
-	
-}
-
-h1 {
-	@include Schrift-style(400%);
-
-
-}
-h2 {
-	@include Schrift-style(25px);
-}
-img{
-	height:40%;
-	width:40%;
-
-}
-
-
-

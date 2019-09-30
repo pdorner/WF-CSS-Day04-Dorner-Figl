@@ -1,36 +1,60 @@
-body {
-  background-color: lightgreen;
-  background-image: url("https://static.geo.de/bilder/84/ac/64272/galleryimage/05-balko-hollaendischer-schaeferhund.jpg");
-  width: 100%; }
-
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+    background-image: url("https://sitmeanssit.com/dog-training-mu/metro-detroit-dog-training/files/2016/03/16458523_ml.jpg");
+    width: 100%;
+    background-size: stretch; }
+    body p {
+      color: red;
+      background-color: rgba(255, 255, 255, 0.2);
+      font: 30% Happy Monkey, sans-serif; }
+    body h1 {
+      color: red;
+      background-color: rgba(255, 255, 255, 0.2);
+      font: 100% Happy Monkey, sans-serif;
+      width: 50%; }
+    body h2 {
+      color: red;
+      background-color: rgba(255, 255, 255, 0.2);
+      font: 50% Happy Monkey, sans-serif; } }
 @media screen and (min-width: 481px) and (max-width: 1200px) {
   body {
     background-color: deepskyblue;
-    background-image: url("https://static.geo.de/bilder/84/ac/64272/galleryimage/05-balko-hollaendischer-schaeferhund.jpg");
-    width: 100%; } }
+    background-image: url("https://sitmeanssit.com/dog-training-mu/metro-detroit-dog-training/files/2016/03/16458523_ml.jpg");
+    width: 100%;
+    background-size: stretch; }
+    body p {
+      color: red;
+      background-color: rgba(255, 255, 255, 0.2);
+      font: 100% Happy Monkey, sans-serif; }
+    body h1 {
+      color: red;
+      background-color: rgba(255, 255, 255, 0.2);
+      font: 500% Happy Monkey, sans-serif;
+      width: 50%; }
+    body h2 {
+      color: red;
+      background-color: rgba(255, 255, 255, 0.2);
+      font: 250% Happy Monkey, sans-serif; } }
 @media screen and (min-width: 1201px) {
   body {
     background-color: black;
-    background-image: url("https://static.geo.de/bilder/84/ac/64272/galleryimage/05-balko-hollaendischer-schaeferhund.jpg");
-    width: 100%; } }
-p {
-  font-size: 20px;
-  color: red;
-  background-color: white;
-  font: Happy Monkey, sans-serif; }
-
-h1 {
-  font-size: 400%;
-  color: red;
-  background-color: white;
-  font: Happy Monkey, sans-serif; }
-
-h2 {
-  font-size: 25px;
-  color: red;
-  background-color: white;
-  font: Happy Monkey, sans-serif; }
-
+    background-image: url("https://sitmeanssit.com/dog-training-mu/metro-detroit-dog-training/files/2016/03/16458523_ml.jpg");
+    width: 100%;
+    background-size: stretch; }
+    body p {
+      color: red;
+      background-color: rgba(255, 255, 255, 0.2);
+      font: 200% Happy Monkey, sans-serif; }
+    body h1 {
+      color: red;
+      background-color: rgba(255, 255, 255, 0.2);
+      font: 800% Happy Monkey, sans-serif;
+      width: 50%; }
+    body h2 {
+      color: red;
+      background-color: rgba(255, 255, 255, 0.2);
+      font: 400% Happy Monkey, sans-serif; } }
 img {
   height: 40%;
   width: 40%; }
