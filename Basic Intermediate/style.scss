@@ -65,6 +65,66 @@ a {
 }
 
 /*Main*/
+.first-website{
+	width:100%;
+	text-align:center;
+}
+#h2{
+	font-size: 4em;
+}
+
+#blogpost{
+	background-color:grey;
+	color:white;
+	padding-left:10px;
+}
+.container{
+	display:flex;
+	justify-content:flex-start;
+	padding:10px;
+	flex-wrap:wrap;
+	
+	
+	
+}
+
+.footertext{
+	width: 50%;
+}
+.fototext:nth-of-type(1){
+	display: flex;
+	order:0;
+	width:40%;
+	height:400px;
+	padding:20px;
+
+}
+
+.fototext:nth-of-type(2){
+	display: flex;
+	order:1;
+	width:40%;
+	height:400px;
+
+}
+.fototext:nth-of-type(3){
+	display: flex;
+	order:2;
+	width:40%;
+	height:400px;
+
+}
+.fototext:nth-of-type(4){
+	display: flex;
+	order:3;
+	width:40%;
+	height:400px;
+
+}
+#picture{
+	width: 40%;
+	
+}
 
 
 
