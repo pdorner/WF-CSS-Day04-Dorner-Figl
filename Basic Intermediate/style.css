@@ -93,16 +93,16 @@ a {
   height: 450px; }
 
 .picture {
-  display: cover;
   width: 90%;
   height: 80%;
   margin: 0; }
 
 p.p1 {
   width: 90%;
-  margin: -2% 5% 0 5%;
-  opacity: 0.6;
-  background-color: black; }
+  margin: -5% 5% 0 5%;
+  opacity: 0.8;
+  background-color: black;
+  font-size: 1.1em; }
 
 /*footer*/
 footer {
@@ -112,8 +112,8 @@ footer {
   margin-top: 40px; }
 
 #bottomLogo {
-  width: 40%;
-  height: 40%; }
+  width: 20%;
+  height: 20%; }
 
 .p2 {
   margin-top: 20px;
