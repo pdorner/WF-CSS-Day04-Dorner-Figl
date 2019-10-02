@@ -1,0 +1,38 @@
+body{
+  background: #333;
+  margin: 1em;
+  font-family: sans-serif;
+}
+
+.container{
+    background: white;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 1200px;
+}
+.header{
+  background: #aa8147;
+  display: block;
+}
+.nav-main{
+  background: #97a2aa;
+}
+nav{
+  display: block;
+}
+.content{
+  padding: 0;
+}
+.main{
+  background: white;
+}
+.sidebar{
+  background: #f0f3f5;
+}
+.sidebar2{
+  background: #daedc1;
+}
+.footer{
+  background: #353535;
+  color: white;
+}
